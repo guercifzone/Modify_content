@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Modify Content",
+  "version": "0.1.0",
+  "description": "this  extention can edit or  remove js & css Content from webpage",
+  "permissions":["tabs"],
+  "content_scripts": [{
+    "css": ["style.css"],
+    "js": ["contenu.js"],
+    "matches": ["https://www.facebook.com/*"]
+  }]
+ 
+}
